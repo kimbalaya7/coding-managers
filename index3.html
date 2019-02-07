@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example page 2</title>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: row;
+            }
+            .hello {
+                width: 33%;
+            }
+            .hello:first-child {
+                    background-color: red;
+            }
+            .hello:nth-child(2) {
+                background-color: orange;
+            }
+            .hello:last-child {
+                    background-color: yellow;
+            }
+            .hello:hover {
+                color: green;
+                font-size: 48px;
+            }
+            .hello:first-child:hover {
+                    background-color: blue;
+            }
+        </style>
+    </head>
+<body>
+    <div class="container">
+    <div class="hello">Hello One</div>
+    <div class="hello">Hello Two</div>
+    <div class="hello">Hello Three</div>
+    </div>
+</body>
+
+</html>
